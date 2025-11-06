@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>PlaySphere</title>
+  <style>
+    body { font-family: Inter, sans-serif; background: #F5F9FF; color: #2C2F33; text-align: center; padding: 50px; }
+    h1 { color: #007BFF; }
+  </style>
+</head>
+<body>
+  <h1>Benvenuti su PlaySphere</h1>
+  <p>Il tuo sport, la nostra intelligenza. Calcio, sport invernali, basket e volley.</p>
+</body>
+</htlm>
+<Aggiunta homepage>
