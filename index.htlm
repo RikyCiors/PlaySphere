@@ -12,10 +12,12 @@
       padding: 0;
     }
     header {
-      background-color: #007BFF;
-      color: white;
-      padding: 30px 20px;
       text-align: center;
+      padding: 30px;
+    }
+    header img {
+      max-width: 300px;
+      height: auto;
     }
     section {
       padding: 40px 20px;
@@ -24,6 +26,13 @@
     }
     h2 {
       color: #007BFF;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
     }
     footer {
       background-color: #2C3E50;
@@ -36,11 +45,8 @@
 </head>
 <body>
 
-  <header style="text-align: center; padding: 30px;">
-  <img src="https://github.com/rikycross/playsphere/blob/main/logo.png?raw=true" alt="PlaySphere Logo" style="max-width: 300px; height: auto;">
-  <h1 style="margin-top: 20px;">PlaySphere</h1>
-  <p>AI-powered sports media hub – La sfera sportiva AI a 360 gradi</p>
-</header>
+  <header>
+    <img src="https://github.com/rikycross/playsphere/blob/main/logo.png?raw=true" alt="PlaySphere Logo">
     <h1>PlaySphere</h1>
     <p>AI-powered sports media hub – La sfera sportiva AI a 360 gradi</p>
   </header>
@@ -74,19 +80,4 @@
   </footer>
 
 </body>
-</html><!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title>PlaySphere</title>
-  <style>
-    body { font-family: Inter, sans-serif; background: #F5F9FF; color: #2C2F33; text-align: center; padding: 50px; }
-    h1 { color: #007BFF; }
-  </style>
-</head>
-<body>
-  <h1>Benvenuti su PlaySphere</h1>
-  <p>Il tuo sport, la nostra intelligenza. Calcio, sport invernali, basket e volley.</p>
-</body>
-</htlm>
-<Aggiunta homepage>
+</html>
