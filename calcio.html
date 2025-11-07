@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Calcio – PlaySphere</title>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: 'Bebas Neue', sans-serif;
-      background: linear-gradient(135deg, #fdfbfb, #ebedee);
-      color: #2C3E50;
+      font-family: 'Anton', sans-serif;
+      background: url('https://copilot.microsoft.com/th/id/BCO.72f9e545-c7d2-4747-8af8-6629803e0930.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
       display: flex;
       min-height: 100vh;
     }
     .sidebar {
       width: 180px;
-      background-color: #1F2D3D;
-      color: white;
+      background-color: rgba(0, 0, 0, 0.7);
       padding: 30px 20px;
       flex-shrink: 0;
     }
@@ -31,7 +31,7 @@
       color: white;
       text-decoration: none;
       margin: 15px 0;
-      font-weight: 600;
+      font-weight: bold;
       transition: color 0.3s;
     }
     .sidebar a:hover {
@@ -40,16 +40,18 @@
     .main {
       flex-grow: 1;
       padding: 60px 40px;
+      background-color: rgba(0, 0, 0, 0.6);
     }
     .main h1 {
-      font-size: 48px;
-      color: #007BFF;
-      margin-bottom: 20px;
+      font-size: 60px;
+      color: #ffffff;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
     }
     .main h2 {
-      font-size: 24px;
+      font-size: 28px;
       margin-top: 40px;
-      color: #007BFF;
+      color: #00BFFF;
     }
     .main ul {
       margin-top: 10px;
@@ -59,25 +61,26 @@
     }
     .main ul li {
       margin-bottom: 12px;
-      font-size: 20px;
+      font-size: 22px;
     }
     .main ul li a {
-      color: #2C3E50;
+      color: white;
       text-decoration: none;
-      transition: color 0.3s;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s;
     }
     .main ul li a:hover {
-      color: #007BFF;
+      border-color: #00BFFF;
     }
     .main p {
-      font-size: 18px;
+      font-size: 20px;
       line-height: 1.6;
       max-width: 800px;
     }
     footer {
       margin-top: 60px;
       font-size: 14px;
-      color: #555;
+      color: #ccc;
     }
   </style>
 </head>
@@ -85,22 +88,23 @@
 
   <div class="sidebar">
     <h2>PlaySphere</h2>
-    <a href="index.html">🏠 Home</a>
+    <a href="index.html">Home</a>
   </div>
 
   <div class="main">
     <h1>Calcio</h1>
+
     <h2>Campionati coperti</h2>
     <ul>
-      <li><a href="serie-a.html">🇮🇹 Serie A</a></li>
-      <li><a href="serie-b.html">🇮🇹 Serie B</a></li>
-      <li><a href="serie-c.html">🇮🇹 Serie C</a></li>
-      <li><a href="coppa-italia.html">🏆 Coppa Italia</a></li>
-      <li><a href="la-liga.html">🇪🇸 La Liga</a></li>
-      <li><a href="premier-league.html">🏴 Premier League</a></li>
-      <li><a href="bundesliga.html">🇩🇪 Bundesliga</a></li>
-      <li><a href="ligue-1.html">🇫🇷 Ligue 1</a></li>
-      <li><a href="champions-league.html">🌍 Champions League</a></li>
+      <li><a href="serie-a.html">Serie A</a></li>
+      <li><a href="serie-b.html">Serie B</a></li>
+      <li><a href="serie-c.html">Serie C</a></li>
+      <li><a href="coppa-italia.html">Coppa Italia</a></li>
+      <li><a href="la-liga.html">La Liga</a></li>
+      <li><a href="premier-league.html">Premier League</a></li>
+      <li><a href="bundesliga.html">Bundesliga</a></li>
+      <li><a href="ligue-1.html">Ligue 1</a></li>
+      <li><a href="champions-league.html">Champions League</a></li>
     </ul>
 
     <h2>Contenuti AI</h2>
