@@ -36,7 +36,7 @@
 </head>
 <body>
 
-  <header<header style="text-align: center; padding: 30px;">
+  <header style="text-align: center; padding: 30px;">
   <img src="https://github.com/rikycross/playsphere/blob/main/logo.png?raw=true" alt="PlaySphere Logo" style="max-width: 300px; height: auto;">
   <h1 style="margin-top: 20px;">PlaySphere</h1>
   <p>AI-powered sports media hub – La sfera sportiva AI a 360 gradi</p>
