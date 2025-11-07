@@ -52,10 +52,28 @@
       margin-top: 40px;
       color: #00BFFF;
     }
-    .main p {
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+    }
+    th {
+      background-color: #111;
+      color: #00BFFF;
+    }
+    td {
+      background-color: #222;
+    }
+    p {
       font-size: 20px;
       line-height: 1.6;
-      max-width: 800px;
       color: #ccc;
     }
     footer {
@@ -75,9 +93,39 @@
   <div class="main">
     <h1>Serie A</h1>
 
-    <h2>Contenuti</h2>
+    <h2>Classifica simulata</h2>
+    <table>
+      <tr><th>Pos.</th><th>Squadra</th><th>Punti</th><th>GF</th><th>GS</th><th>Diff.</th></tr>
+      <tr><td>1</td><td>Inter</td><td>84</td><td>72</td><td>28</td><td>+44</td></tr>
+      <tr><td>2</td><td>Milan</td><td>81</td><td>68</td><td>32</td><td>+36</td></tr>
+      <tr><td>3</td><td>Juventus</td><td>78</td><td>65</td><td>30</td><td>+35</td></tr>
+      <tr><td>4</td><td>Napoli</td><td>74</td><td>60</td><td>34</td><td>+26</td></tr>
+      <tr><td>5</td><td>Roma</td><td>70</td><td>58</td><td>38</td><td>+20</td></tr>
+    </table>
+
+    <h2>Marcatori simulati</h2>
+    <table>
+      <tr><th>Giocatore</th><th>Squadra</th><th>Gol</th></tr>
+      <tr><td>Lautaro Martínez</td><td>Inter</td><td>23</td></tr>
+      <tr><td>Vlahović</td><td>Juventus</td><td>21</td></tr>
+      <tr><td>Osimhen</td><td>Napoli</td><td>19</td></tr>
+      <tr><td>Leão</td><td>Milan</td><td>17</td></tr>
+      <tr><td>Dybala</td><td>Roma</td><td>16</td></tr>
+    </table>
+
+    <h2>Statistiche generali</h2>
     <p>
-      Questa sezione è dedicata al campionato di Serie A. Qui troverai analisi, statistiche e contenuti originali generati con intelligenza artificiale, pensati per offrire una visione innovativa e coinvolgente del calcio italiano.
+      Media gol a partita: <strong>2.6</strong><br>
+      Percentuale vittorie in casa: <strong>58%</strong><br>
+      Squadra con più clean sheet: <strong>Inter (18)</strong><br>
+      Squadra più offensiva: <strong>Milan (media 1.9 gol/partita)</strong><br>
+      Squadra più fallosa: <strong>Torino (media 15 falli/partita)</strong>
+    </p>
+
+    <h2>Insight AI simulato</h2>
+    <p>
+      Se la Juventus segna entro il 30’, ha il <strong>78%</strong> di probabilità di vincere.<br>
+      Se subisce il primo gol, la probabilità scende al <strong>42%</strong>.
     </p>
 
     <footer>
