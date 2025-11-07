@@ -3,84 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <title>PlaySphere</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background-color: #f4f6f8;
+      padding: 0;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #e0eafc, #cfdef3);
       color: #2C3E50;
-    }
-    header {
-      background-color: #ffffff;
-      padding: 60px 20px;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    header h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-      color: #007BFF;
-    }
-    header p {
-      font-size: 20px;
-      color: #555;
-    }
-    nav {
       display: flex;
-      justify-content: center;
-      background-color: #007BFF;
-      padding: 15px 0;
+      min-height: 100vh;
     }
-    nav a {
+    .sidebar {
+      width: 220px;
+      background-color: #1F2D3D;
+      color: white;
+      padding: 30px 20px;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #00BFFF;
+    }
+    .sidebar a {
+      display: block;
       color: white;
       text-decoration: none;
-      margin: 0 20px;
+      margin: 15px 0;
       font-weight: 600;
       transition: color 0.3s;
     }
-    nav a:hover {
+    .sidebar a:hover {
       color: #FFD700;
     }
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      text-align: center;
+    .main {
+      flex-grow: 1;
+      padding: 60px 40px;
+    }
+    .main h1 {
+      font-size: 48px;
+      color: #007BFF;
+      margin-bottom: 20px;
+    }
+    .main p {
+      font-size: 20px;
+      color: #333;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 20px;
+      width: 100px;
     }
     footer {
-      background-color: #2C3E50;
-      color: white;
-      text-align: center;
-      padding: 20px;
+      margin-top: 60px;
       font-size: 14px;
+      color: #555;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>PlaySphere</h1>
-    <p>AI-powered sports media hub – La sfera sportiva AI a 360 gradi</p>
-  </header>
+  <div class="sidebar">
+    <img src="logo.png" alt="PlaySphere Logo" class="logo">
+    <h2>PlaySphere</h2>
+    <a href="index.html">🏠 Home</a>
+    <a href="calcio.html">⚽ Calcio</a>
+    <a href="invernali.html">🎿 Sport Invernali</a>
+    <a href="basket.html">🏀 Basket</a>
+    <a href="volley.html">🏐 Volley</a>
+    <a href="milano-cortina.html">🏅 Milano-Cortina 2026</a>
+  </div>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="calcio.html">Calcio</a>
-    <a href="invernali.html">Sport Invernali</a>
-    <a href="basket.html">Basket</a>
-    <a href="volley.html">Volley</a>
-    <a href="milano-cortina.html">Milano-Cortina 2026</a>
-  </nav>
+  <div class="main">
+    <h1>Benvenuto su PlaySphere</h1>
+    <p>
+      PlaySphere è il tuo hub sportivo alimentato da intelligenza artificiale. Raccontiamo il calcio, gli sport invernali, il basket e il volley con contenuti dinamici, analisi, interviste simulate e storytelling immersivo. Esplora le sezioni per scoprire come l’AI sta rivoluzionando il modo di vivere lo sport.
+    </p>
 
-  <section>
-    <h2>Benvenuto su PlaySphere</h2>
-    <p>Scopri come l’intelligenza artificiale sta rivoluzionando il racconto sportivo. Naviga tra le sezioni per esplorare contenuti unici, analisi, interviste simulate e molto altro.</p>
-  </section>
-
-  <footer>
-    © 2025 PlaySphere – Powered by AI. Sito in sviluppo.
-  </footer>
+    <footer>
+      © 2025 PlaySphere – Powered by AI. Sito in sviluppo.
+    </footer>
+  </div>
 
 </body>
 </html>
