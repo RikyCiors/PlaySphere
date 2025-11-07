@@ -15,10 +15,6 @@
       text-align: center;
       padding: 30px;
     }
-    header img {
-      max-width: 300px;
-      height: auto;
-    }
     section {
       padding: 40px 20px;
       max-width: 800px;
@@ -46,7 +42,6 @@
 <body>
 
   <header>
-    <img <img src="https://github.com/RikyCiors/PlaySphere/blob/main/logo.png?raw=true" alt="PlaySphere Logo" style="max-width: 300px; height: auto;">
     <h1>PlaySphere</h1>
     <p>AI-powered sports media hub – La sfera sportiva AI a 360 gradi</p>
   </header>
@@ -54,17 +49,17 @@
   <section>
     <h2>Chi siamo</h2>
     <p>
-      PlaySphere è un progetto editoriale sportivo alimentato da intelligenza artificiale. Raccontiamo il calcio, gli sport invernali, il basket e il volley con contenuti dinamici, personalizzati e accessibili. Il nostro obiettivo è dare voce agli sport e agli atleti, dai campi locali alle Olimpiadi Milano-Cortina 2026.
+      PlaySphere è un progetto editoriale sportivo alimentato da intelligenza artificiale. Raccontiamo il calcio, gli sport invernali, il basket e il volley con contenuti dinamici, personalizzati e accessibili.
     </p>
   </section>
 
   <section>
     <h2>Sport coperti</h2>
     <ul>
-      <li>⚽ Calcio (Serie A, Coppa Italia, dilettanti)</li>
-      <li>⛷️ Sport invernali (sci alpino, snowboard, biathlon)</li>
-      <li>🏀 Basket (Eurolega, Serie A, giovanili)</li>
-      <li>🏐 Volley (Superlega, femminile, beach volley)</li>
+      <li>⚽ Calcio</li>
+      <li>⛷️ Sport invernali</li>
+      <li>🏀 Basket</li>
+      <li>🏐 Volley</li>
     </ul>
   </section>
 
@@ -72,6 +67,20 @@
     <h2>Road to Milano-Cortina 2026</h2>
     <p>
       Segui con noi il percorso verso le Olimpiadi invernali: atleti da tenere d’occhio, gare di qualificazione, contenuti AI e interviste simulate.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contenuti AI</h2>
+    <p>
+      Generiamo articoli, interviste, analisi e storytelling sportivo con l’aiuto dell’intelligenza artificiale. Ogni contenuto è pensato per coinvolgere e informare.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contatti</h2>
+    <p>
+      Vuoi collaborare con noi o proporre un contenuto? Scrivici a <strong>info@playsphere.ai</strong>
     </p>
   </section>
 
