@@ -2,170 +2,90 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Serie A – PlaySphere</title>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <title>Serie A 2025/26</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Anton', sans-serif;
-      background-color: #000;
-      color: white;
-      display: flex;
-      min-height: 100vh;
-    }
-    .sidebar {
-      width: 180px;
-      background-color: #111;
-      padding: 30px 20px;
-      flex-shrink: 0;
-    }
-    .sidebar h2 {
-      font-size: 24px;
-      margin-bottom: 30px;
-      text-align: center;
-      color: #00BFFF;
-    }
-    .sidebar a {
-      display: block;
-      color: white;
-      text-decoration: none;
-      margin: 15px 0;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-    .sidebar a:hover {
-      color: #FFD700;
-    }
-    .main {
-      flex-grow: 1;
-      padding: 60px 40px;
-      background-color: #000;
-    }
-    .main h1 {
-      font-size: 60px;
-      color: #ffffff;
-      margin-bottom: 30px;
-      letter-spacing: 2px;
-    }
-    .main h2 {
-      font-size: 28px;
-      margin-top: 40px;
-      color: #00BFFF;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      margin-bottom: 40px;
-    }
-    th, td {
-      border: 1px solid #333;
-      padding: 10px;
-      text-align: center;
-      font-size: 18px;
-    }
-    th {
-      background-color: #111;
-      color: #00BFFF;
-    }
-    td {
-      background-color: #222;
-    }
-    p {
-      font-size: 20px;
-      line-height: 1.6;
-      color: #ccc;
-    }
-    footer {
-      margin-top: 60px;
-      font-size: 14px;
-      color: #888;
-    }
+    body { background-color: #111; color: #eee; font-family: Arial, sans-serif; padding: 20px; }
+    h1, h2 { color: #00BFFF; margin-top: 40px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { padding: 10px; text-align: center; border-bottom: 1px solid #333; }
+    thead { background-color: #222; color: #00BFFF; }
+    tbody { background-color: #1a1a1a; }
+    p.note { font-size: 12px; color: #888; margin-top: 40px; }
   </style>
 </head>
 <body>
 
-  <div class="sidebar">
-    <h2>PlaySphere</h2>
-    <a href="index.html">Home</a>
-  </div>
+  <h1>Serie A 2025/26 – Dati aggiornati</h1>
 
-  <div class="main">
-    <h1>Serie A</h1>
+  <!-- 🔹 Classifica Generale -->
+  <h2>Classifica Generale</h2>
+  <table>
+    <thead>
+      <tr><th>Pos</th><th>Squadra</th><th>G</th><th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th><th>DR</th><th>Pt</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Napoli</td><td>10</td><td>7</td><td>1</td><td>2</td><td>16</td><td>8</td><td>+8</td><td>22</td></tr>
+      <tr><td>2</td><td>Inter</td><td>10</td><td>7</td><td>0</td><td>3</td><td>24</td><td>12</td><td>+12</td><td>21</td></tr>
+      <tr><td>3</td><td>Milan</td><td>10</td><td>6</td><td>3</td><td>1</td><td>15</td><td>7</td><td>+8</td><td>21</td></tr>
+      <tr><td>4</td><td>Roma</td><td>10</td><td>7</td><td>0</td><td>3</td><td>10</td><td>5</td><td>+5</td><td>21</td></tr>
+      <tr><td>5</td><td>Bologna</td><td>10</td><td>5</td><td>3</td><td>2</td><td>16</td><td>8</td><td>+8</td><td>18</td></tr>
+      <tr><td>6</td><td>Juventus</td><td>10</td><td>5</td><td>3</td><td>2</td><td>14</td><td>10</td><td>+4</td><td>18</td></tr>
+      <tr><td>7</td><td>Como</td><td>10</td><td>4</td><td>5</td><td>1</td><td>12</td><td>6</td><td>+6</td><td>17</td></tr>
+      <tr><td>8</td><td>Udinese</td><td>10</td><td>4</td><td>3</td><td>3</td><td>12</td><td>15</td><td>-3</td><td>15</td></tr>
+      <tr><td>9</td><td>Cremonese</td><td>10</td><td>3</td><td>5</td><td>2</td><td>12</td><td>12</td><td>0</td><td>14</td></tr>
+      <tr><td>10</td><td>Atalanta</td><td>10</td><td>2</td><td>7</td><td>1</td><td>13</td><td>8</td><td>+5</td><td>13</td></tr>
+    </tbody>
+  </table>
 
-        <h2>Classifica generale (Giornata 10)</h2>
-    <table>
-      <tr><th>Pos.</th><th>Squadra</th><th>G</th><th>V</th><th>P</th><th>S</th><th>GF</th><th>GS</th><th>DR</th><th>Punti</th><th>Δ</th></tr>
-      <tr><td>1</td><td>Napoli</td><td>10</td><td>7</td><td>1</td><td>2</td><td>16</td><td>8</td><td>+8</td><td>22</td><td>🔼 +1</td></tr>
-      <tr><td>2</td><td>Inter</td><td>10</td><td>7</td><td>0</td><td>3</td><td>24</td><td>12</td><td>+12</td><td>21</td><td>🔽 -1</td></tr>
-      <tr><td>3</td><td>Milan</td><td>10</td><td>6</td><td>3</td><td>1</td><td>15</td><td>7</td><td>+8</td><td>21</td><td>➡ 0</td></tr>
-      <tr><td>4</td><td>Roma</td><td>10</td><td>7</td><td>0</td><td>3</td><td>10</td><td>5</td><td>+5</td><td>21</td><td>🔼 +2</td></tr>
-      <tr><td>5</td><td>Bologna</td><td>10</td><td>5</td><td>3</td><td>2</td><td>16</td><td>8</td><td>+8</td><td>18</td><td>➡ 0</td></tr>
-      <tr><td>6</td><td>Juventus</td><td>10</td><td>5</td><td>3</td><td>2</td><td>14</td><td>10</td><td>+4</td><td>18</td><td>🔽 -2</td></tr>
-      <tr><td>7</td><td>Atalanta</td><td>10</td><td>5</td><td>2</td><td>3</td><td>13</td><td>11</td><td>+2</td><td>17</td><td>➡ 0</td></tr>
-      <tr><td>8</td><td>Fiorentina</td><td>10</td><td>4</td><td>3</td><td>3</td><td>12</td><td>12</td><td>0</td><td>15</td><td>🔼 +1</td></tr>
-      <tr><td>9</td><td>Torino</td><td>10</td><td>4</td><td>2</td><td>4</td><td>10</td><td>10</td><td>0</td><td>14</td><td>🔽 -1</td></tr>
-      <tr><td>10</td><td>Lazio</td><td>10</td><td>4</td><td>2</td><td>4</td><td>11</td><td>13</td><td>-2</td><td>14</td><td>➡ 0</td></tr>
-      <tr><td>11</td><td>Sassuolo</td><td>10</td><td>3</td><td>3</td><td>4</td><td>12</td><td>14</td><td>-2</td><td>12</td><td>➡ 0</td></tr>
-      <tr><td>12</td><td>Lecce</td><td>10</td><td>3</td><td>3</td><td>4</td><td>9</td><td>11</td><td>-2</td><td>12</td><td>➡ 0</td></tr>
-      <tr><td>13</td><td>Genoa</td><td>10</td><td>3</td><td>2</td><td>5</td><td>8</td><td>13</td><td>-5</td><td>11</td><td>➡ 0</td></tr>
-      <tr><td>14</td><td>Udinese</td><td>10</td><td>2</td><td>4</td><td>4</td><td>7</td><td>12</td><td>-5</td><td>10</td><td>➡ 0</td></tr>
-      <tr><td>15</td><td>Verona</td><td>10</td><td>2</td><td>3</td><td>5</td><td>6</td><td>12</td><td>-6</td><td>9</td><td>➡ 0</td></tr>
-      <tr><td>16</td><td>Cagliari</td><td>10</td><td>2</td><td>3</td><td>5</td><td>7</td><td>15</td><td>-8</td><td>9</td><td>➡ 0</td></tr>
-      <tr><td>17</td><td>Empoli</td><td>10</td><td>2</td><td>2</td><td>6</td><td>5</td><td>14</td><td>-9</td><td>8</td><td>➡ 0</td></tr>
-      <tr><td>18</td><td>Salernitana</td><td>10</td><td>1</td><td>4</td><td>5</td><td>6</td><td>16</td><td>-10</td><td>7</td><td>➡ 0</td></tr>
-      <tr><td>19</td><td>Monza</td><td>10</td><td>1</td><td>3</td><td>6</td><td>5</td><td>15</td><td>-10</td><td>6</td><td>➡ 0</td></tr>
-      <tr><td>20</td><td>Frosinone</td><td>10</td><td>1</td><td>2</td><td>7</td><td>4</td><td>18</td><td>-14</td><td>5</td><td>➡ 0</td></tr>
-    </table>
+  <!-- 🔹 Calendario Giornata 11 -->
+  <h2>Calendario – Giornata 11</h2>
+  <table>
+    <thead>
+      <tr><th>Data</th><th>Ora</th><th>Casa</th><th>Ospite</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>8 nov</td><td>15:00</td><td>Lecce</td><td>Verona</td></tr>
+      <tr><td>8 nov</td><td>15:00</td><td>Como</td><td>Cagliari</td></tr>
+      <tr><td>8 nov</td><td>18:00</td><td>Juventus</td><td>Torino</td></tr>
+      <tr><td>8 nov</td><td>20:45</td><td>Parma</td><td>Milan</td></tr>
+      <tr><td>9 nov</td><td>12:30</td><td>Atalanta</td><td>Sassuolo</td></tr>
+      <tr><td>9 nov</td><td>15:00</td><td>Bologna</td><td>Napoli</td></tr>
+    </tbody>
+  </table>
 
-        <h2>Classifica Marcatori</h2>
-    <table>
-      <tr><th>Pos.</th><th>Giocatore</th><th>Squadra</th><th>Gol</th></tr>
-      <tr><td>1</td><td>Lautaro Martínez</td><td>Inter</td><td>7</td></tr>
-      <tr><td>2</td><td>Osimhen</td><td>Napoli</td><td>6</td></tr>
-      <tr><td>3</td><td>Vlahović</td><td>Juventus</td><td>6</td></tr>
-      <tr><td>4</td><td>Leão</td><td>Milan</td><td>5</td></tr>
-      <tr><td>5</td><td>Dybala</td><td>Roma</td><td>5</td></tr>
-      <tr><td>6</td><td>Orsolini</td><td>Bologna</td><td>4</td></tr>
-      <tr><td>7</td><td>Scamacca</td><td>Atalanta</td><td>4</td></tr>
-      <tr><td>8</td><td>Immobile</td><td>Lazio</td><td>4</td></tr>
-      <tr><td>9</td><td>Berardi</td><td>Sassuolo</td><td>3</td></tr>
-      <tr><td>10</td><td>Nzola</td><td>Fiorentina</td><td>3</td></tr>
-    </table>
+  <!-- 🔹 Classifica Marcatori -->
+  <h2>Classifica Marcatori</h2>
+  <table>
+    <thead>
+      <tr><th>Pos</th><th>Giocatore</th><th>Squadra</th><th>Gol</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Hakan Çalhanoglu</td><td>Inter</td><td>5</td></tr>
+      <tr><td>1</td><td>Riccardo Orsolini</td><td>Bologna</td><td>5</td></tr>
+      <tr><td>3</td><td>Frank Anguissa</td><td>Napoli</td><td>4</td></tr>
+      <tr><td>3</td><td>Federico Bonazzoli</td><td>Cremonese</td><td>4</td></tr>
+      <tr><td>3</td><td>Christian Pulisic</td><td>Milan</td><td>4</td></tr>
+    </tbody>
+  </table>
 
-    <h2>Prossima Giornata (8–10 novembre 2025)</h2>
-    <p>
-      <strong>Venerdì 8/11 ore 20:45</strong> – Juventus vs Torino<br>
-      <strong>Sabato 9/11 ore 15:00</strong> – Bologna vs Napoli, Genoa vs Fiorentina<br>
-      <strong>Sabato 9/11 ore 18:00</strong> – Milan vs Lecce<br>
-      <strong>Domenica 10/11 ore 12:30</strong> – Roma vs Verona<br>
-      <strong>Domenica 10/11 ore 15:00</strong> – Inter vs Cagliari, Lazio vs Udinese, Atalanta vs Sassuolo<br>
-      <strong>Domenica 10/11 ore 18:00</strong> – Salernitana vs Empoli<br>
-      <strong>Domenica 10/11 ore 20:45</strong> – Monza vs Frosinone
-    </p>
+  <!-- 🔹 Statistiche Generali -->
+  <h2>Statistiche Generali</h2>
+  <table>
+    <thead>
+      <tr><th>Voce</th><th>Valore</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Partite giocate</td><td>100</td></tr>
+      <tr><td>Gol totali</td><td>226</td></tr>
+      <tr><td>Media gol a partita</td><td>2.26</td></tr>
+      <tr><td>Reti inviolate</td><td>33</td></tr>
+      <tr><td>Gol falliti</td><td>33</td></tr>
+      <tr><td>Miglior attacco</td><td>Inter (24 gol)</td></tr>
+      <tr><td>Miglior difesa</td><td>Napoli (8 gol subiti)</td></tr>
+    </tbody>
+  </table>
 
-        <h2>Statistiche Generali</h2>
-    <p>
-      Media gol a partita: <strong>2.5</strong><br>
-      Gol totali: <strong>250</strong><br>
-      Partite terminate 0-0: <strong>6</strong><br>
-      Rigori assegnati: <strong>28</strong> (trasformati: 22)<br>
-      Espulsioni totali: <strong>12</strong><br>
-      Ammonizioni totali: <strong>210</strong><br>
-      Squadra con più gol: <strong>Inter (24)</strong><br>
-      Miglior difesa: <strong>Roma (5 gol subiti)</strong><br>
-      Squadra più offensiva: <strong>Inter (media 2.4 gol/partita)</strong><br>
-      Squadra più fallosa: <strong>Torino (15 falli/partita)</strong><br>
-      Squadra con più rigori a favore: <strong>Napoli (5)</strong><br>
-      Squadra con più espulsioni subite: <strong>Salernitana (3)</strong><br>
-      Squadra con più pareggi: <strong>Udinese (4)</strong><br>
-      Squadra con meno vittorie: <strong>Frosinone (1)</strong><br>
-      Miglior differenza reti: <strong>Inter (+12)</strong>
-    </p>
-
-    <footer>
-      © 2025 PlaySphere – Powered by AI.
-    </footer>
-  </div>
-</body>
-</html>
+  <!-- 🔹 Nota Legale -->
+  <p class="note">
+    I dati riportati in questa pagina sono raccolti da fonti pubbliche e sono forniti a scopo puramente informativo.  
+    Non viene effettuata alcuna riproduzione di contenuti protetti da copyright, né vengono utilizzati loghi, marchi registrati o materiali
